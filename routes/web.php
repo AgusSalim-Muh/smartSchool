@@ -22,7 +22,7 @@ Route::get('/tentang', function () {
 
 // Anda bisa jadikan halaman program sebagai halaman utama
 Route::get('/', function () {
-    return view('program');
+    return view('header');
 });
 
 Route::post('/login', function() {
